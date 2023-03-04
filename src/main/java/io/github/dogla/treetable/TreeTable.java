@@ -40,7 +40,7 @@ public class TreeTable implements RowContainer {
 	/**
 	 * Constructor.
 	 *
-	 * @param columns
+	 * @param columns the columns
 	 */
 	public TreeTable(String... columns) {
 		this(Arrays.stream(columns).map(c -> new Column(c)).toArray(Column[]::new));
@@ -49,7 +49,7 @@ public class TreeTable implements RowContainer {
 	/**
 	 * Constructor.
 	 *
-	 * @param columns
+	 * @param columns the columns
 	 */
 	public TreeTable(Column[] columns) {
 		super();
@@ -148,6 +148,7 @@ public class TreeTable implements RowContainer {
 	 * Converts the underlying tree/table.
 	 * 
 	 * @param converter the converter
+	 * @param <T> the type of the result 
 	 * 
 	 * @return the result of the conversion
 	 */
