@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.dogla</groupId>
     <artifactId>treetable</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
 
 	<name>TreeTable</name>
 	<description>Small library for table or tree like structures with column support.</description>

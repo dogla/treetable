@@ -2,5 +2,5 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: TreeTable Plugin
 Bundle-SymbolicName: io.github.dogla.treetable
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 1.0.1.qualifier
 Export-Package: io.github.dogla.treetable
